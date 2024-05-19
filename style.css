@@ -1,70 +1,37 @@
-*{
+* {
     padding: 0px;
     margin: 0px;
-}
-body {
+    color: rgb(158, 158, 158);
     font-family: sans-serif;
 }
-section,footer {
-    min-height: 120px;
-    padding: 20px;
-    text-align: center;
-    
-}
-.dark {
-    color: white;
-    background-color: black;
+body {
+    background-color: rgb(20, 25, 53);
+    padding: 1rem 2rem;
 }
 h1 {
-    margin: 80px;
+    font-size: 3.5rem;
+    color: rgb(231, 231, 231);
 }
 h2 {
-    text-align: center;
-    margin: 10px;
-}
-.light {
-    color: black;
-    background-color: white;
-}
-ul {
-    text-align: center;
-}
-a {
-    display: inline-block;
-    margin: 3px;
-    padding: 10px;
-    min-width: 90px;
-    background-color: black;
-    color: white;
-    border-radius: 5px;
-    border: 2px white solid;
-    padding: 10px;
-    text-align: center;
-    text-indent: 0px;
-    text-decoration: none;
-}
-h1 {
-    text-align: center;
+    font-size: 1.1rem;
+    color: rgb(231, 231, 231);
 }
 nav {
-    text-align: center;
+    margin: 1.5rem 0%;
 }
-input {
-    width: 200px;
-    margin: 4px
+nav a {
+    display: block;
+    text-decoration: none;
+    margin: .75rem 0%;
+    position: relative;
+    width: 100px;
+    text-align: right;
+    /* background-color: aqua; */
+    transition: all .1s;
 }
 
-#submit {
-    width: 100px;
-    background-color: black;
-    color: white;
-    border: none;
-    padding: 10px;
-    border-radius: 5px;
-    margin: 14px;
+nav a:hover {
+    color: rgb(231, 231, 231);
+    width: 120px;
+    transition: all .3s;
 }
-p {
-    max-width: 400px;
-    margin: auto;
-    margin-bottom: 20px;
-} 
