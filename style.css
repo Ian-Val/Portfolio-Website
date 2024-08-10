@@ -1,0 +1,53 @@
+* {
+    font-family: sans-serif;
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    padding: 4rem;
+    
+}
+
+.container {
+    width: 70%;
+    margin: auto;
+}
+
+h1 {
+    font-size: 2rem;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin: auto;
+}
+
+section{
+    margin: 2rem 0px;
+}
+
+p {
+    margin: .25rem 0px;
+}
+
+h2 {
+    margin: 3rem;
+    text-align: center;
+}
+
+h3 {
+    margin: 1rem 0px;
+}
+
+li {
+    margin-left: 3.5rem;
+}
+
+article {
+    width: 55%;
+    margin: auto;
+}
+
